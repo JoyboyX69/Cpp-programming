@@ -8,12 +8,14 @@ using namespace std;
 // main file
 int main()
 {
-    // Take a array in all the variable to perform there task
+    // Take a array in all the variable to perform there task.
     int total[5],percentage[5];
     int rollno[5],m1[5],m2[5],m3[5];
 
+    // this variable initialize for loop.
      int i;
 
+    //  In ths loop ,collect the all data from user such as(roll no,3 subject of marks,total marks & percentage)
      for(i=0;i<=4;i++)
      {
         cout<<"Enter your roll no:";
@@ -24,7 +26,10 @@ int main()
         percentage[i]=total[i]*100/300;
 
      }
+    //  This is to print in a table form
      cout<<"\nRoll no\tEnglish\tHIndi\tMaths\tTotal\tPercentage\n";
+
+    //  This loops helps to show the output the values you enter.
      for(i=0;i<=4;i++)
      {
         cout<<rollno[i]<<"\t";
@@ -34,6 +39,6 @@ int main()
         cout<<total[i]<<"\t";
         cout<<percentage[i]<<endl;
     
-
+        // end the code.
      }       
 }
