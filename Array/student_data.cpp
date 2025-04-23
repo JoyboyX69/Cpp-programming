@@ -1,9 +1,14 @@
+// QUESTION : SHow the data of a student in a table form and give me subject marks and total marks
+// and percentage as well with the help of array.
+
+// header file
 #include<iostream>
 using namespace std;
 
+// main file
 int main()
 {
-    
+    // Take a array in all the variable to perform there task
     int total[5],percentage[5];
     int rollno[5],m1[5],m2[5],m3[5];
 
