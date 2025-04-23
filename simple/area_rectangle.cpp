@@ -20,6 +20,11 @@ int main()
         cin>>l;
 
     //Take a input breath of a rectangle. 
-        cout<<"enter the length of a rectangle: ";
+    cout<<"enter the length of a rectangle: ";
         cin>>l;
+
+    //Print the Area & parimeter of a rectangle.
+    cout<<"Area of a Rectangle:  "<<l*b;
+    cout<<"Area of a Rectangle:  "<<2*(l+b);
+
 }
