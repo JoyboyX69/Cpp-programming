@@ -31,4 +31,6 @@ int main()
     // if salary is greater than 60,000.
     else
     cout<<"Group Leader";
+
+    // End of code
 }
