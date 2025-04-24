@@ -12,4 +12,20 @@ int main()
 {
     // create a variable for input salary
     int salary;
+
+    cout<<"Enter your salary: ";
+    cin>>salary;
+
+    // in this condition salary is not greater than 20,000
+    if(salary<=20000)
+    cout<<"Fourth Class Worker";
+
+    else if(salary<=40000)
+    cout<<"Software Enginner";
+
+    else if(salary<=60000)
+    cout<<"Senior Software Enginner";
+
+    else
+    cout<<"Group Leader";
 }
