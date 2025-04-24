@@ -3,4 +3,13 @@
 THEN PRINT SENIOR SOFTWARE ENGINEER AND MORE THAN THIS SALARY THAN PRINT GROUP LEADER
 */ 
 
-// HEADER FILE
+// header file
+#include<iostream>
+using namespace std;
+
+// main file
+int main()
+{
+    // create a variable for input salary
+    int salary;
+}
