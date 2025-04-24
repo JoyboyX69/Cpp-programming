@@ -16,16 +16,19 @@ int main()
     cout<<"Enter your salary: ";
     cin>>salary;
 
-    // in this condition salary is not greater than 20,000
+    // in this condition salary is not greater than 20,000.
     if(salary<=20000)
     cout<<"Fourth Class Worker";
 
+    // if salary is not greater than 40,000.
     else if(salary<=40000)
     cout<<"Software Enginner";
 
+    // if salary is not greater than 60,000.
     else if(salary<=60000)
     cout<<"Senior Software Enginner";
 
+    // if salary is greater than 60,000.
     else
     cout<<"Group Leader";
 }
