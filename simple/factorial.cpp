@@ -23,6 +23,6 @@ int main()
         fact*=i;
     }
 
-    
+    // this line help to print the factorial number
     cout<<"The Factorial of a Number is "<<fact;
 }
