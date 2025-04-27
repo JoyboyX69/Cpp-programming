@@ -14,4 +14,12 @@ int main()
     cin>>n;
 
     // start a loop of check variable one by one 
+    for(int i=1;i<=n;i++)
+    {
+        // this condition will check the value have remainder zero
+        if(n%i==0)
+        
+        // then print the value of i
+        cout<<i<<"\t";
+    }
 }
