@@ -42,9 +42,11 @@ void greatest(int no[10])
     {
         // this condition helps to find the greatest number
         if(no[i]>gr)
+        // this is store the greatest number
         gr=no[i];
 
     }
+    // print the greatest number 
     cout<<"Greteast No.: "<<gr;
     }
 
