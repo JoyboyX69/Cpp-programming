@@ -5,7 +5,7 @@ in an array*/
 #include<iostream>
 using namespace std;
 
-// functions call
+// Declaration function
 void greatest(int []);
 void lowest(int []);
 void sorting(int []);
@@ -16,26 +16,31 @@ int main()
     // take an array with 10 size and i for loops
     int a[10],i;
 
+    // this loop helps to input the digit as per the size 
     for(i=0;i<10;i++)
     {
         cout<<"Enter Your Array No "<<i<<" :";
         cin>>a[i];
     }
 
+    // function call
     greatest(a);
-
     lowest(a);
-
     sorting(a);
 
 }
 
+// this function helps to find out greatest number in an array
 void greatest(int no[10])
 {
+    // take gr variable to find out the greatest
+
     int i,gr=0;
 
+    // this loops check one by one then store the variable which one is greatest
     for(i=0;i<10;i++)
     {
+        // this condition helps to find the greatest number
         if(no[i]>gr)
         gr=no[i];
 
