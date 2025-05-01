@@ -1,10 +1,10 @@
 /* QUESTION: Write a program in C++ to print a pattern just like That: 
- *****
- *****
- *****
- *****
- *****
- */
+11111
+22222
+33333
+44444
+55555
+*/
 
 // header file
 #include<iostream>
@@ -20,20 +20,25 @@ int main()
     cout<<"Enter a number: ";
     cin>>n;
 
-    // first loop start 
+    // first loop will start 
     for(i=1;i<=n;i++)
     {
-        // for next line
+        // print the next line until loop is complete
         cout<<endl;
 
-        // second loop start for print the value of *
+        // second loop will start for print the number
         for(j=1;j<=n;j++)
         
-        // then print the value
-        cout<<"*";
+        // print the pattern
+        cout<<i;
     }
     return 0;
     // end of program
 }
+
+
+
+
+
 
 
