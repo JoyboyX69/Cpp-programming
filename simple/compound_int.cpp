@@ -1,6 +1,6 @@
+// QUESTION: Write a program in C++ to find out the compound interest
 
-
-
+// header file
 #include<iostream>
 using namespace std;
 
