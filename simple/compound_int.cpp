@@ -4,10 +4,13 @@
 #include<iostream>
 using namespace std;
 
+// main file
 int main()
 {
+    // take a 6 variable in float
     float p,r,t,amount=1,ci,i;
 
+    // input your all value
     cout<<"Enter The Principal: ";
     cin>>p;
     cout<<"Enter The Rate: ";
