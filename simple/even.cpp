@@ -21,4 +21,6 @@ int main()
     // otherwise this is an odd number
     else
     cout<<"this is a odd number";
+
+    // end of code
 }
