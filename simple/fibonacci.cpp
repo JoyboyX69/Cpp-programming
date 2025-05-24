@@ -21,11 +21,12 @@ int main()
     // start a loop to numbe
     for( int i=1;i<=n;i++)
     {
-       
+        // add a and b to c & swap the value
         c=a+b;
         a=b;
         b=c;
 
+        // print the value of c and get the fibonacci series
         cout<<" "<<c;
     }
 
