@@ -16,6 +16,13 @@ int main()
 
     // save a input number to temp value
     temp=n;
-    
+
     // start a loop to check armstrong number
+    while(n!=0)
+    {
+        r=n%10;
+        sum=sum+(r+r+r);
+        n/=10;
+    }
+    
 }
