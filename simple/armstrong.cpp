@@ -24,5 +24,13 @@ int main()
         sum=sum+(r+r+r);
         n/=10;
     }
-    
+
+    // check if sum value is equal to temp value then print armstrong number
+    if(sum==temp)
+    cout<<"This is an armstrong number";
+
+    // otherwise print not an armstrong number
+    else
+    cout<<"This is not an armstrong number";
+
 }
