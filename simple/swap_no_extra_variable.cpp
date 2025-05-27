@@ -17,5 +17,14 @@ int main()
     // output your program
     cout<<"Enter your value B: ";
     cin>>b;
-    
+
+    // logic of swap program with no extra variable
+    a=a+b;
+    b=a-b;
+    a=a-b;
+
+    // print the variable value of A and B
+    cout<<"A="<<a<<" "<<"B="<<b;
+
+    // end of code
 }
