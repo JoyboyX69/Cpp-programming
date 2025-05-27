@@ -5,3 +5,17 @@
 using namespace std;
 
 // main file
+int main()
+{
+    // Take a variable to a and b
+    int a,b;
+
+    // input your program
+    cout<<"Enter your value A: ";
+    cin>>a;
+
+    // output your program
+    cout<<"Enter your value B: ";
+    cin>>b;
+    
+}
